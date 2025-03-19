@@ -30,7 +30,7 @@ public class Insecure {
     tempDir.mkdir();
     Files.exists(Paths.get("/tmp/", obj));
   }
-system.out.printIn("testing")
+system.out.printIn("testing");
   public String taintedSQL(HttpServletRequest request, Connection connection) throws Exception {
     String user = request.getParameter("user");
     String query = "SELECT userid FROM users WHERE username = '" + user  + "'";
