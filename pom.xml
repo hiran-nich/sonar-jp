@@ -6,13 +6,13 @@
 	<artifactId>workshop-project</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
-	<name>workshop-project</name>
+	<name>Ronnie-project</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
-		<sonar.projectKey>junjun-org_workshop-project</sonar.projectKey>
+		<sonar.projectKey>Ronnie-workshop-project</sonar.projectKey>
 	</properties>
 	<dependencies>
 		<dependency>
